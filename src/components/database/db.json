@@ -1,0 +1,91 @@
+{
+    "admin": [{
+    "id": 1,
+    "nama": "admin1",
+    "pw": "admin1"
+}],
+"jenis": [
+    {
+        "id_jenis": 1,
+        "nama": "proyektor"
+    },
+    {
+        "id_jenis": 2,
+        "nama": "speaker"
+    },
+    {
+        "id_jenis": 3,
+        "nama": "alatbersih"
+    }
+],
+"pinjam": [
+    {
+        "id_pinjam": 1,
+        "admin": "admin1",
+        "nama": "John",
+        "kelas": "XI RPL 1",
+        "no_tlp": "0897865643",
+        "id_barang": "1",
+        "jenis": "proyektor",
+        "durasi": "11.15"
+    },
+    {
+        "id_pinjam": 2,
+        "admin": "admin1",
+        "nama": "Jane",
+        "kelas": "XII TKJ 2",
+        "no_tlp": "0894532167",
+        "id_barang": "2",
+        "jenis": "proyektor",
+        "durasi": "10.30"
+    },
+    {
+        "id_pinjam": 3,
+        "admin": "admin1",
+        "nama": "Doe",
+        "kelas": "X AK 5",
+        "no_tlp": "0874567895",
+        "id_barang": "1",
+        "jenis": "speaker",
+        "durasi": "08.00"
+    }
+],
+"riwayat": [
+    {
+        "id_kembali": 1,
+        "id_pinjam": 1,
+        "admin": "admin1",
+        "nama": "John",
+        "kelas": "XI RPL 1",
+        "no_tlp": "0897865643",
+        "id_barang": "1",
+        "jenis": "proyektor",
+        "durasi": "11.15",
+        "kembali": "11.00"
+    },
+    {
+        "id_kembali": 2,
+        "id_pinjam": 2,
+        "admin": "admin1",
+        "nama": "Jane",
+        "kelas": "XII TKJ 2",
+        "no_tlp": "0894532167",
+        "id_barang": "2",
+        "jenis": "proyektor",
+        "durasi": "10.30",
+        "kembali": "10.30"
+    },
+    {
+        "id_kembali": 3,
+        "id_pinjam": 3,
+        "admin": "admin1",
+        "nama": "Doe",
+        "kelas": "X AK 5",
+        "no_tlp": "0874567895",
+        "id_barang": "1",
+        "jenis": "speaker",
+        "durasi": "08.00",
+        "kembali": "08.00"
+    }
+]
+}
